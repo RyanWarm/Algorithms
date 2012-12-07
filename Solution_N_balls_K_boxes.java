@@ -1,5 +1,5 @@
 /**
- * Amazon �ϻ���:N����ͬ�����ŵ�K����ͬ�ĺ�����,�������п��ܵķŷ�(��������û������)
+ * Amazon Interview:N个相同的球放到K个相同的盒子中,输出所有可能的放法(各个盒子没有区别)
  */
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
