@@ -1,5 +1,5 @@
 /**
- * Amazon 上机题:N个相同的球放到K个相同的盒子中,输出所有可能的放法(各个盒子没有区别)
+ * Amazon 锟较伙拷锟斤拷:N锟斤拷锟斤拷同锟斤拷锟斤拷锟脚碉拷K锟斤拷锟斤拷同锟侥猴拷锟斤拷锟斤拷,锟斤拷锟斤拷锟斤拷锟叫匡拷锟杰的放凤拷(锟斤拷锟斤拷锟斤拷锟斤拷没锟斤拷锟斤拷锟斤拷)
  */
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -13,19 +13,19 @@ public class Solution_N_balls_K_boxes {
 	 */
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader( new InputStreamReader( System.in ) );
-        String line = br.readLine();
-        
-        String[] input = line.split(" ");
-        n = Integer.parseInt(input[0]);
-        k = Integer.parseInt(input[1]);
-        
-        int[] value = new int[k];
-        value[0] = n;
-        for( int i = 1; i < k; i++ ){
-        	value[i] = 0;
-        }
-        
-        doProcess(value, 1);
+	        String line = br.readLine();
+	        
+	        String[] input = line.split(" ");
+	        n = Integer.parseInt(input[0]);
+	        k = Integer.parseInt(input[1]);
+	        
+	        int[] value = new int[k];
+	        value[0] = n;
+	        for( int i = 1; i < k; i++ ){
+	        	value[i] = 0;
+	        }
+	        
+	        doProcess(value, 1);
 	}
 	
 	public static void doProcess(int[] value, int index){
